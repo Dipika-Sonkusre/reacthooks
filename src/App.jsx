@@ -1,6 +1,5 @@
 import "./App.css";
-import UseMemo from "./Hooks/UseMemo";
-import UseRef from "./Hooks/UseRef";
+import UseCallback from "./Hooks/UseCallback";
 
 function App() {
   return (
@@ -8,7 +7,8 @@ function App() {
       {/* <UseState /> <br /> */}
       {/* <UseEffect /> <br /> */}
       {/* <UseRef /> <br /> */}
-      <UseMemo /> <br />
+      {/* <UseMemo /> <br /> */}
+      <UseCallback />
     </section>
   );
 }
