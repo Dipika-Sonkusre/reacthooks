@@ -18,9 +18,11 @@ section {
 }
 
 button {
-  padding: 0.6rem;
+  padding: 0.7rem;
   border: 1px solid gainsboro;
-  background: transparent;
+  background: gainsboro;
+  border-radius: 10px;
+  font-size: 15px;
 }
 
 .container {

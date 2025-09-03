@@ -1,8 +1,5 @@
 import "./App.css";
-import Footer from "./component/Footer";
-import Profile from "./component/Profile";
-import ContextProvider from "./context/AppContext";
-import UseCallback from "./Hooks/UseCallback";
+import UseReducer from "./Hooks/UseReducer";
 
 function App() {
   return (
@@ -13,7 +10,7 @@ function App() {
       {/* <UseMemo /> <br /> */}
       {/* <UseCallback /> */}
 
-      <div
+      {/* <div
         style={{
           border: "1px solid black",
           padding: "1rem",
@@ -24,7 +21,9 @@ function App() {
           <Profile />
           <Footer />
         </ContextProvider>
-      </div>
+      </div> */}
+
+      <UseReducer />
     </section>
   );
 }
